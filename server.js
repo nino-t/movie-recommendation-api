@@ -63,7 +63,7 @@ server.get("/movies", (req, res) => {
     movie.result_genres = db
       .get("genres")
       .filter((genre) => {
-        return movie.genres.includes(genre.id);
+        return movie.genres && movie.genres.includes(genre.id);
       })
       .value();
 
@@ -90,14 +90,14 @@ server.get("/movies/:movie_id", (req, res) => {
     casts = db
       .get("casts")
       .filter((cast) => {
-        return movie.casts.includes(cast.id);
+        return movie.casts && movie.casts.includes(cast.id);
       })
       .value();
 
     genres = db
       .get("genres")
       .filter((genre) => {
-        return movie.genres.includes(genre.id);
+        return movie.genres && movie.genres.includes(genre.id);
       })
       .value();
   }
@@ -128,6 +128,8 @@ server.get("/movies/:movie_id/recommendation", (req, res) => {
     .filter((x) => {
       return (
         x.id !== Number(movie_id) &&
+        x.genres &&
+        x.casts &&
         (x.genres.find((g) => genres.includes(g)) || x.casts.find((c) => casts.includes(c)))
       );
     })

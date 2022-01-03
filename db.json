@@ -18,80 +18,151 @@
       "name": "Doctor Strange",
       "release_date": "2016-10-26",
       "synopsis": "Doctor Strange adalah sebuah film pahlawan super Amerika yang menampilkan karakter Marvel Comics dengan nama yang sama, diproduksi oleh Marvel Studios dan didistribusikan oleh Walt Disney Motion Pictures. Film ini merupakan film keempat belas dari Marvel Cinematic Universe.",
-      "casts": [1, 2, 3],
-      "genres": [1]
+      "casts": [
+        1,
+        2,
+        3
+      ],
+      "genres": [
+        1
+      ]
     },
     {
       "id": 2,
       "name": "Inception",
       "release_date": "2010-07-16",
       "synopsis": "Inception adalah film fiksi ilmiah tahun 2010 yang disutradarai oleh Christopher Nolan dan diproduseri oleh Christopher Nolan dan Emma Thomas. Naskah film ini ditulis oleh Christopher Nolan.",
-      "casts": [4, 5, 6, 7],
-      "genres": [1, 4]
+      "casts": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "genres": [
+        1,
+        4
+      ]
     },
     {
       "id": 3,
       "name": "Iron Man",
       "release_date": "2008-04-30",
       "synopsis": "Iron Man adalah sebuah film pahlawan super rilisan tahun 2008 yang berdasarkan pada tokoh Marvel Comics, Iron Man. Film yang diproduksi oleh Marvel Studios dan didistribusikan oleh Paramount Pictures ini merupakan film pertama dalam waralaba Marvel Cinematic Universe.",
-      "casts": [8, 9, 10],
-      "genres": [1]
+      "casts": [
+        8,
+        9,
+        10
+      ],
+      "genres": [
+        1
+      ]
     },
     {
       "id": 4,
       "name": "Spider-Man: No Way Home",
       "release_date": "2021-12-15",
       "synopsis": "Identitas Spider-Man sekarang sudah terungkap, dan Peter meminta bantuan Doctor Strange. namun sebuah kesalahan terjadi, dan itu justru mengundang musuh berbahaya dari dunia lain, mereka mulai bermunculan. Hal itu memaksa Peter mencari apa makna sebenarnya menjadi Spider-Man.",
-      "casts": [1, 11, 12, 13, 14, 15],
-      "genres": [1]
+      "casts": [
+        1,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "genres": [
+        1
+      ]
     },
     {
       "id": 5,
       "name": "Dune",
       "release_date": "2021-10-13",
       "synopsis": "Perjalanan pahlawan mitis dan emosional, Dune menceritakan kisah Paul Atreides, seorang pemuda cerdas dan berbakat yang lahir dalam takdir besar di luar pemahamannya, yang harus melakukan perjalanan ke planet paling berbahaya di alam semesta untuk memastikan masa depannya.",
-      "casts": [16, 14, 17, 18],
-      "genres": [1, 5]
+      "casts": [
+        16,
+        14,
+        17,
+        18
+      ],
+      "genres": [
+        1,
+        5
+      ]
     },
     {
       "id": 6,
       "name": "Call Me by Your Name",
       "release_date": "2017-01-22",
       "synopsis": "Call Me by Your Name adalah film drama romantis tahun 2017 yang disutradarai oleh Luca Guadagnino dan diproduseri oleh Emilie Georges, Luca Guadagnino, James Ivory, Marco Morabito, Howard Rosenman, Peter Spears dan Rodrigo Teixeira. Naskah film ini ditulis oleh Walter Fasano, Luca Guadagnino dan James Ivory.",
-      "casts": [16, 19, 20],
-      "genres": [3, 7]
+      "casts": [
+        16,
+        19,
+        20
+      ],
+      "genres": [
+        3,
+        7
+      ]
     },
     {
       "id": 7,
       "name": "Five Feet Apart",
       "release_date": "2019-03-15",
       "synopsis": "Will (Cole Sprouse) dan Stella (Haley Lu Richardson) adalah remaja yang dipertemukan oleh penyakit mereka. Keduanya bertemu di sebuah rumah sakit dan jatuh cinta.",
-      "casts": [21, 22, 23],
-      "genres": [3, 7]
+      "casts": [
+        21,
+        22,
+        23
+      ],
+      "genres": [
+        3,
+        7
+      ]
     },
     {
       "id": 8,
       "name": "Riverdale",
       "release_date": "2017-01-26",
       "synopsis": "Riverdale adalah serial televisi drama remaja Amerika Serikat yang didasarkan pada karakter Archie Comics. Serial ini diadaptasi untuk The CW oleh kepala kreatif kantor Archie Comics, Roberto Aguirre-Sacasa dan diproduksi oleh Warner Bros.",
-      "casts": [21, 24, 25],
-      "genres": [3]
+      "casts": [
+        21,
+        24,
+        25
+      ],
+      "genres": [
+        3
+      ]
     },
     {
       "id": 9,
       "name": "Tom & Jerry",
       "release_date": "2021-03-10",
       "synopsis": "Salah satu persaingan paling dicintai dalam sejarah muncul kembali ketika Jerry pindah ke hotel terbaik di New York City pada malam pernikahan abad ini, memaksa perencana acara yang putus asa untuk mempekerjakan Tom untuk menyingkirkannya.",
-      "casts": [26, 27],
-      "genres": [2]
+      "casts": [
+        26,
+        27
+      ],
+      "genres": [
+        2
+      ]
     },
     {
       "id": 10,
       "name": "The Dark Knight",
       "release_date": "2008-07-18",
       "synopsis": "The Dark Knight adalah film superhero kriminal thriller tahun 2008 yang disutradarai oleh Christopher Nolan dan diproduseri oleh Christopher Nolan, Charles Roven dan Emma Thomas. Naskah film ini ditulis oleh Christopher Nolan dan Jonathan Nolan, sementara ceritanya ditulis oleh Christopher Nolan dan David S.",
-      "casts": [28, 29, 7],
-      "genres": [1]
+      "casts": [
+        28,
+        29,
+        7
+      ],
+      "genres": [
+        1
+      ]
+    },
+    {
+      "id": 11
     }
   ],
   "casts": [
