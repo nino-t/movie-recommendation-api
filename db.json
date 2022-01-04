@@ -11,7 +11,78 @@
       "password": "secret"
     }
   ],
-  "user_activity": [],
+  "user_activity": [
+    {
+      "user_id": 1,
+      "movie_id": 1,
+      "date": 1641228116840
+    },
+    {
+      "user_id": 1,
+      "movie_id": 1,
+      "date": 1641228117839
+    },
+    {
+      "user_id": 1,
+      "movie_id": 5,
+      "date": 1641228119941
+    },
+    {
+      "user_id": 1,
+      "movie_id": 6,
+      "date": 1641228121149
+    },
+    {
+      "user_id": 1,
+      "movie_id": 7,
+      "date": 1641228122222
+    },
+    {
+      "user_id": 1,
+      "movie_id": 9,
+      "date": 1641229254965
+    },
+    {
+      "user_id": 1,
+      "movie_id": 1,
+      "date": 1641229273953
+    },
+    {
+      "user_id": 1,
+      "movie_id": 5,
+      "date": 1641229285895
+    },
+    {
+      "user_id": 1,
+      "movie_id": 3,
+      "date": 1641229289007
+    },
+    {
+      "user_id": 1,
+      "movie_id": 1,
+      "date": 1641229393521
+    },
+    {
+      "user_id": 1,
+      "movie_id": 10,
+      "date": 1641229398050
+    },
+    {
+      "user_id": 1,
+      "movie_id": 5,
+      "date": 1641229400162
+    },
+    {
+      "user_id": 1,
+      "movie_id": 2,
+      "date": 1641229401054
+    },
+    {
+      "user_id": 1,
+      "movie_id": 1,
+      "date": 1641229401551
+    }
+  ],
   "movies": [
     {
       "id": 1,
@@ -25,7 +96,14 @@
       ],
       "genres": [
         1
-      ]
+      ],
+      "result_genres": [
+        {
+          "id": 1,
+          "title": "Action"
+        }
+      ],
+      "priority": 1
     },
     {
       "id": 2,
@@ -41,7 +119,18 @@
       "genres": [
         1,
         4
-      ]
+      ],
+      "result_genres": [
+        {
+          "id": 1,
+          "title": "Action"
+        },
+        {
+          "id": 4,
+          "title": "Fantasy"
+        }
+      ],
+      "priority": 1
     },
     {
       "id": 3,
@@ -55,7 +144,14 @@
       ],
       "genres": [
         1
-      ]
+      ],
+      "result_genres": [
+        {
+          "id": 1,
+          "title": "Action"
+        }
+      ],
+      "priority": 1
     },
     {
       "id": 4,
@@ -72,7 +168,14 @@
       ],
       "genres": [
         1
-      ]
+      ],
+      "result_genres": [
+        {
+          "id": 1,
+          "title": "Action"
+        }
+      ],
+      "priority": 2
     },
     {
       "id": 5,
@@ -88,7 +191,18 @@
       "genres": [
         1,
         5
-      ]
+      ],
+      "result_genres": [
+        {
+          "id": 1,
+          "title": "Action"
+        },
+        {
+          "id": 5,
+          "title": "Horror"
+        }
+      ],
+      "priority": 1
     },
     {
       "id": 6,
@@ -103,7 +217,18 @@
       "genres": [
         3,
         7
-      ]
+      ],
+      "result_genres": [
+        {
+          "id": 3,
+          "title": "Drama"
+        },
+        {
+          "id": 7,
+          "title": "Romance"
+        }
+      ],
+      "priority": 1
     },
     {
       "id": 7,
@@ -118,7 +243,18 @@
       "genres": [
         3,
         7
-      ]
+      ],
+      "result_genres": [
+        {
+          "id": 3,
+          "title": "Drama"
+        },
+        {
+          "id": 7,
+          "title": "Romance"
+        }
+      ],
+      "priority": 0
     },
     {
       "id": 8,
@@ -132,7 +268,14 @@
       ],
       "genres": [
         3
-      ]
+      ],
+      "result_genres": [
+        {
+          "id": 3,
+          "title": "Drama"
+        }
+      ],
+      "priority": 0
     },
     {
       "id": 9,
@@ -145,7 +288,14 @@
       ],
       "genres": [
         2
-      ]
+      ],
+      "result_genres": [
+        {
+          "id": 2,
+          "title": "Comedy"
+        }
+      ],
+      "priority": 3
     },
     {
       "id": 10,
@@ -159,10 +309,14 @@
       ],
       "genres": [
         1
-      ]
-    },
-    {
-      "id": 11
+      ],
+      "result_genres": [
+        {
+          "id": 1,
+          "title": "Action"
+        }
+      ],
+      "priority": 1
     }
   ],
   "casts": [
