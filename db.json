@@ -11,312 +11,423 @@
       "password": "secret"
     }
   ],
-  "user_activity": [
-    {
-      "user_id": 1,
-      "movie_id": 1,
-      "date": 1641228116840
-    },
-    {
-      "user_id": 1,
-      "movie_id": 1,
-      "date": 1641228117839
-    },
-    {
-      "user_id": 1,
-      "movie_id": 5,
-      "date": 1641228119941
-    },
-    {
-      "user_id": 1,
-      "movie_id": 6,
-      "date": 1641228121149
-    },
-    {
-      "user_id": 1,
-      "movie_id": 7,
-      "date": 1641228122222
-    },
-    {
-      "user_id": 1,
-      "movie_id": 9,
-      "date": 1641229254965
-    },
-    {
-      "user_id": 1,
-      "movie_id": 1,
-      "date": 1641229273953
-    },
-    {
-      "user_id": 1,
-      "movie_id": 5,
-      "date": 1641229285895
-    },
-    {
-      "user_id": 1,
-      "movie_id": 3,
-      "date": 1641229289007
-    },
-    {
-      "user_id": 1,
-      "movie_id": 1,
-      "date": 1641229393521
-    },
-    {
-      "user_id": 1,
-      "movie_id": 10,
-      "date": 1641229398050
-    },
-    {
-      "user_id": 1,
-      "movie_id": 5,
-      "date": 1641229400162
-    },
-    {
-      "user_id": 1,
-      "movie_id": 2,
-      "date": 1641229401054
-    },
-    {
-      "user_id": 1,
-      "movie_id": 1,
-      "date": 1641229401551
-    }
-  ],
+  "user_activity": [],
   "movies": [
     {
       "id": 1,
       "name": "Doctor Strange",
       "release_date": "2016-10-26",
-      "synopsis": "Doctor Strange adalah sebuah film pahlawan super Amerika yang menampilkan karakter Marvel Comics dengan nama yang sama, diproduksi oleh Marvel Studios dan didistribusikan oleh Walt Disney Motion Pictures. Film ini merupakan film keempat belas dari Marvel Cinematic Universe.",
-      "casts": [
-        1,
-        2,
-        3
-      ],
-      "genres": [
-        1
-      ],
-      "result_genres": [
-        {
-          "id": 1,
-          "title": "Action"
-        }
-      ],
-      "priority": 1
+      "synopsis": "Doctor Strange adalah sebuah film pahlawan super Amerika yang menampilkan karakter  Comics denganMarvel nama yang sama, diproduksi oleh Marvel Studios dan didistribusikan oleh Walt Disney Motion Pictures. Film ini merupakan film keempat belas dari Marvel Cinematic Universe.",
+      "casts": [1, 2, 3],
+      "genres": [1]
     },
     {
       "id": 2,
       "name": "Inception",
       "release_date": "2010-07-16",
       "synopsis": "Inception adalah film fiksi ilmiah tahun 2010 yang disutradarai oleh Christopher Nolan dan diproduseri oleh Christopher Nolan dan Emma Thomas. Naskah film ini ditulis oleh Christopher Nolan.",
-      "casts": [
-        4,
-        5,
-        6,
-        7
-      ],
-      "genres": [
-        1,
-        4
-      ],
-      "result_genres": [
-        {
-          "id": 1,
-          "title": "Action"
-        },
-        {
-          "id": 4,
-          "title": "Fantasy"
-        }
-      ],
-      "priority": 1
+      "casts": [4, 5, 6, 7],
+      "genres": [1, 4]
     },
     {
       "id": 3,
       "name": "Iron Man",
       "release_date": "2008-04-30",
       "synopsis": "Iron Man adalah sebuah film pahlawan super rilisan tahun 2008 yang berdasarkan pada tokoh Marvel Comics, Iron Man. Film yang diproduksi oleh Marvel Studios dan didistribusikan oleh Paramount Pictures ini merupakan film pertama dalam waralaba Marvel Cinematic Universe.",
-      "casts": [
-        8,
-        9,
-        10
-      ],
-      "genres": [
-        1
-      ],
-      "result_genres": [
-        {
-          "id": 1,
-          "title": "Action"
-        }
-      ],
-      "priority": 1
+      "casts": [8, 9, 10],
+      "genres": [1]
     },
     {
       "id": 4,
       "name": "Spider-Man: No Way Home",
       "release_date": "2021-12-15",
       "synopsis": "Identitas Spider-Man sekarang sudah terungkap, dan Peter meminta bantuan Doctor Strange. namun sebuah kesalahan terjadi, dan itu justru mengundang musuh berbahaya dari dunia lain, mereka mulai bermunculan. Hal itu memaksa Peter mencari apa makna sebenarnya menjadi Spider-Man.",
-      "casts": [
-        1,
-        11,
-        12,
-        13,
-        14,
-        15
-      ],
-      "genres": [
-        1
-      ],
-      "result_genres": [
-        {
-          "id": 1,
-          "title": "Action"
-        }
-      ],
-      "priority": 2
+      "casts": [1, 11, 12, 13, 14, 15],
+      "genres": [1]
     },
     {
       "id": 5,
       "name": "Dune",
       "release_date": "2021-10-13",
       "synopsis": "Perjalanan pahlawan mitis dan emosional, Dune menceritakan kisah Paul Atreides, seorang pemuda cerdas dan berbakat yang lahir dalam takdir besar di luar pemahamannya, yang harus melakukan perjalanan ke planet paling berbahaya di alam semesta untuk memastikan masa depannya.",
-      "casts": [
-        16,
-        14,
-        17,
-        18
-      ],
-      "genres": [
-        1,
-        5
-      ],
-      "result_genres": [
-        {
-          "id": 1,
-          "title": "Action"
-        },
-        {
-          "id": 5,
-          "title": "Horror"
-        }
-      ],
-      "priority": 1
+      "casts": [16, 14, 17, 18],
+      "genres": [1, 5]
     },
     {
       "id": 6,
       "name": "Call Me by Your Name",
       "release_date": "2017-01-22",
       "synopsis": "Call Me by Your Name adalah film drama romantis tahun 2017 yang disutradarai oleh Luca Guadagnino dan diproduseri oleh Emilie Georges, Luca Guadagnino, James Ivory, Marco Morabito, Howard Rosenman, Peter Spears dan Rodrigo Teixeira. Naskah film ini ditulis oleh Walter Fasano, Luca Guadagnino dan James Ivory.",
-      "casts": [
-        16,
-        19,
-        20
-      ],
-      "genres": [
-        3,
-        7
-      ],
-      "result_genres": [
-        {
-          "id": 3,
-          "title": "Drama"
-        },
-        {
-          "id": 7,
-          "title": "Romance"
-        }
-      ],
-      "priority": 1
+      "casts": [16, 19, 20],
+      "genres": [3, 7]
     },
     {
       "id": 7,
       "name": "Five Feet Apart",
       "release_date": "2019-03-15",
       "synopsis": "Will (Cole Sprouse) dan Stella (Haley Lu Richardson) adalah remaja yang dipertemukan oleh penyakit mereka. Keduanya bertemu di sebuah rumah sakit dan jatuh cinta.",
-      "casts": [
-        21,
-        22,
-        23
-      ],
-      "genres": [
-        3,
-        7
-      ],
-      "result_genres": [
-        {
-          "id": 3,
-          "title": "Drama"
-        },
-        {
-          "id": 7,
-          "title": "Romance"
-        }
-      ],
-      "priority": 0
+      "casts": [21, 22, 23],
+      "genres": [3, 7]
     },
     {
       "id": 8,
       "name": "Riverdale",
       "release_date": "2017-01-26",
       "synopsis": "Riverdale adalah serial televisi drama remaja Amerika Serikat yang didasarkan pada karakter Archie Comics. Serial ini diadaptasi untuk The CW oleh kepala kreatif kantor Archie Comics, Roberto Aguirre-Sacasa dan diproduksi oleh Warner Bros.",
-      "casts": [
-        21,
-        24,
-        25
-      ],
-      "genres": [
-        3
-      ],
-      "result_genres": [
-        {
-          "id": 3,
-          "title": "Drama"
-        }
-      ],
-      "priority": 0
+      "casts": [21, 24, 25],
+      "genres": [3]
     },
     {
       "id": 9,
       "name": "Tom & Jerry",
       "release_date": "2021-03-10",
       "synopsis": "Salah satu persaingan paling dicintai dalam sejarah muncul kembali ketika Jerry pindah ke hotel terbaik di New York City pada malam pernikahan abad ini, memaksa perencana acara yang putus asa untuk mempekerjakan Tom untuk menyingkirkannya.",
-      "casts": [
-        26,
-        27
-      ],
-      "genres": [
-        2
-      ],
-      "result_genres": [
-        {
-          "id": 2,
-          "title": "Comedy"
-        }
-      ],
-      "priority": 3
+      "casts": [26, 27],
+      "genres": [2]
     },
     {
       "id": 10,
       "name": "The Dark Knight",
       "release_date": "2008-07-18",
       "synopsis": "The Dark Knight adalah film superhero kriminal thriller tahun 2008 yang disutradarai oleh Christopher Nolan dan diproduseri oleh Christopher Nolan, Charles Roven dan Emma Thomas. Naskah film ini ditulis oleh Christopher Nolan dan Jonathan Nolan, sementara ceritanya ditulis oleh Christopher Nolan dan David S.",
-      "casts": [
-        28,
-        29,
-        7
-      ],
-      "genres": [
-        1
-      ],
-      "result_genres": [
-        {
-          "id": 1,
-          "title": "Action"
-        }
-      ],
-      "priority": 1
+      "casts": [28, 29, 7],
+      "genres": [1]
+    },
+    {
+      "id": 11,
+      "name": "Crypto",
+      "release_date": "2019-04-12",
+      "synopsis": "Setelah dimutasi ke kota kelahirannya, seorang eksekutif anti pencucian uang Wall Street akhirnya mampu mengendus korupsi keuangan skala besar.",
+      "casts": [30, 31, 32],
+      "genres": [3, 10]
+    },
+    {
+      "id": 12,
+      "name": "Cars",
+      "release_date": "2006-06-09",
+      "synopsis": "Cars adalah sebuah film animasi yang diproduksi Pixar Animation Studios dan dirilis oleh Walt Disney Pictures.",
+      "casts": [33, 34, 35],
+      "genres": [2, 11]
+    },
+    {
+      "id": 13,
+      "name": "Cars 2",
+      "release_date": "2011-10-12",
+      "synopsis": "Cars 2 adalah sebuah film animasi komputer-3D Amerika serikat yang diproduksi Pixar Animation Studios dan dirilis oleh Walt Disney Pictures.",
+      "casts": [33, 34, 36],
+      "genres": [2, 11]
+    },
+    {
+      "id": 14,
+      "name": "Cars 3",
+      "release_date": "2017-08-16",
+      "synopsis": "Cars 3 adalah sebuah film animasi komputer 3D Amerika serikat yang diproduksi Pixar Animation Studios dan dirilis oleh Walt Disney Pictures.",
+      "casts": [33, 34, 36],
+      "genres": [2, 12]
+    },
+    {
+      "id": 15,
+      "name": "Despicable Me",
+      "release_date": "2010-07-09",
+      "synopsis": "Despicable Me adalah film komedi animasi komputer 3D Amerika 2010 yang diproduksi oleh Illumination Entertainment sebagai film dan proyek debutnya dan didistribusikan oleh Universal Pictures. Film ini dianimasikan oleh studio animasi Prancis Mac Guff, yang kemudian diakuisisi oleh Illumination.",
+      "casts": [37, 38, 39],
+      "genres": [11, 2]
+    },
+    {
+      "id": 15,
+      "name": "Despicable Me 2",
+      "release_date": "2013-07-03",
+      "synopsis": "Despicable Me 2 adalah film komedi animasi komputer 3D Amerika 2010 yang diproduksi oleh Illumination Entertainment sebagai film dan proyek debutnya dan didistribusikan oleh Universal Pictures. Film ini dianimasikan oleh studio animasi Prancis Mac Guff, yang kemudian diakuisisi oleh Illumination.",
+      "casts": [37, 38, 39],
+      "genres": [11, 2]
+    },
+    {
+      "id": 16,
+      "name": "Despicable Me 3",
+      "release_date": "2017-07-12",
+      "synopsis": "Despicable Me 3 adalah film komedi animasi komputer 3D Amerika 2017 yang diproduksi oleh Illumination Entertainment sebagai film dan proyek debutnya dan didistribusikan oleh Universal Pictures. Film ini dianimasikan oleh studio animasi Prancis Mac Guff, yang kemudian diakuisisi oleh Illumination.",
+      "casts": [37, 38, 39],
+      "genres": [11, 2]
+    },
+    {
+      "id": 17,
+      "name": "Finding Nemo",
+      "release_date": "2003-03-30",
+      "synopsis": "Finding Nemo adalah sebuah film animasi grafik komputer buatan Amerika Serikat yang meraih penghargaan Academy Award. Dirilis pada 30 Mei 2003 di Kanada dan Amerika Serikat.",
+      "casts": [40, 41],
+      "genres": [11, 13]
+    },
+    {
+      "id": 18,
+      "name": "Finding Dory",
+      "release_date": "2016-06-16",
+      "synopsis": "Mencari Dory adalah film animasi 3 dimensi komputer yang dirilis pada tahun 2016. Film diproduksi oleh Pixar Animation Studios dan dirilis oleh Walt Disney Pictures.",
+      "casts": [40, 41, 42],
+      "genres": [11, 13]
+    },
+    {
+      "id": 19,
+      "name": "IT",
+      "release_date": "2017-09-08",
+      "synopsis": "It adalah film Amerika Serikat tahun 2017 yang disutradarai oleh Andy Muschietti dan diproduseri oleh Roy Lee, Dan Lin, Seth Grahame-Smith, David Katzenberg dan Barbara Muschietti.",
+      "casts": [43, 44],
+      "genres": [5]
+    },
+    {
+      "id": 20,
+      "name": "IT CHAPTER TWO",
+      "release_date": "2019-09-04",
+      "synopsis": "Seri kedua akan melanjutkan kisah para anggota Losers Club. Dua puluh tujuh tahun setelah pertemuan pertama mereka dengan Pennywise yang menakutkan, Losers Club telah dewasa dan berpisah. Sampai sebuah panggilan telepon membawa Losers Club kembali untuk bertemu hantu kelam dari masa lalu mereka.",
+      "casts": [43, 44],
+      "genres": [5]
+    },
+    {
+      "id": 21,
+      "name": "Kingsman: The Secret Service",
+      "release_date": "2015-02-11",
+      "synopsis": "Seorang veteran agen rahasia merekrut remaja untuk dilatih menjadi agen rahasia hebat.",
+      "casts": [45, 46, 47],
+      "genres": [14, 2]
+    },
+    {
+      "id": 22,
+      "name": "Kingsman: The Golden Circle",
+      "release_date": "2017-09-20",
+      "synopsis": "Kingsman: The Golden Circle merupakan sebuah film aksi petualangan Britania Raya-Amerika Serikat yang dirilis pada tahun 2017.",
+      "casts": [45, 46, 47],
+      "genres": [1, 2]
+    },
+    {
+      "id": 22,
+      "name": "The King's Man",
+      "release_date": "2021-12-22",
+      "synopsis": "Ketika kumpulan tiran terburuk dan kriminal berkumpul untuk merencanakan perang untuk melenyapkan jutaan orang, seorang pria - dengan bantuan putranya, para pembantunya yang dapat dipercaya, dan gaya untuk menyisihkan - harus berpacu dengan waktu untuk menghentikan mereka.",
+      "casts": [46, 48, 49],
+      "genres": [1, 14]
+    },
+    {
+      "id": 23,
+      "name": "Men In Black",
+      "release_date": "1997-07-02",
+      "synopsis": "Men in Black adalah sebuah film komedi laga fiksi ilmiah Amerika Serikat tahun 1997 yang disutradarai oleh Barry Sonnenfeld, diproduseri oleh Walter F. Parkes dan Laurie MacDonald dan ditulis oleh Ed Solomon.",
+      "casts": [50, 51],
+      "genres": [15]
+    },
+    {
+      "id": 24,
+      "name": "Men In Black 2",
+      "release_date": "2002-07-03",
+      "synopsis": "Men in Black 2 adalah sebuah film komedi laga mata-mata fiksi ilmiah tahun 2002 yang dibintangi oleh Tommy Lee dan Will Smith.",
+      "casts": [50, 51],
+      "genres": [15, 14]
+    },
+    {
+      "id": 25,
+      "name": "Men In Black 3",
+      "release_date": "2012-05-24",
+      "synopsis": "Saat K dan nasib bumi terancam, J harus melakukan perjalanan lintas waktu, kembali ke masa lalu untuk menuntaskan semua masalah. Agen J menemukan bahwa ada rahasia yang tidak pernah dikatakan Agen K kepadanya. Sebuah rahasia yang mengungkap diri mereka sebagai tim saat K masih muda. Rahasia ini adalah rahasia yang dapat menyelamatkan Agen K, MIB dan kelangsungan hidup umat manusia.",
+      "casts": [50, 51],
+      "genres": [15, 14]
+    },
+    {
+      "id": 26,
+      "name": "Men In Black: International",
+      "release_date": "2019-06-19",
+      "synopsis": "Men in Black selalu melindungi Bumi dari penjahat alam semesta. Dalam petualangan baru ini, mereka harus mengatasi ancaman terbesar mereka hingga saat ini mata - mata yang ada dalam organisasi Men in Black.",
+      "casts": [52, 53, 54],
+      "genres": [15, 14]
+    },
+    {
+      "id": 27,
+      "name": "Hellboy",
+      "release_date": "2004-07-29",
+      "synopsis": "Hellboy adalah film aksi supranatural yang dibuat tahun 2004. dibintangi Ron Perlman, John Hurt dan Selma Blair, serta disutradarai Guillermo del Toro. Film ini didasarkan pada komik dari Dark Horse Comics, Hellboy: Seed of Destruction oleh Mike Mignola.",
+      "casts": [55, 56],
+      "genres": [4, 14]
+    },
+    {
+      "id": 28,
+      "name": "Hellboy III",
+      "release_date": "2019-04-10",
+      "synopsis": "Hellboy terbaru ini akan mengambil latar sebagai sekuel Hellboy II: The Golden Army. Diangkat dari komik karya Mike Mignola, Hellboy, yang tertangkap antara dunia supernatural dan manusia, bertempur dengan seorang penyihir kuno yang ingin membalas dendam.",
+      "casts": [59, 58, 60],
+      "genres": [4, 14]
+    },
+    {
+      "id": 29,
+      "name": "The Fast and the Furious",
+      "release_date": "2001-06-22",
+      "synopsis": "The Fast and the Furious merupakan sebuah film Amerika Serikat yang dirilis pada tahun 2001. Film yang disutradarai oleh Rob Cohen ini dibintangi oleh Paul Walker, Vin Diesel, Michelle Rodriguez, dan Jordana Brewster.",
+      "casts": [61, 62],
+      "genres": [10, 14]
+    },
+    {
+      "id": 30,
+      "name": "2 Fast 2 Furious",
+      "release_date": "2003-06-06",
+      "synopsis": "2 Fast 2 Furious merupakan sebuah film Amerika Serikat yang dirilis pada tahun 2003. Film yang disutradarai oleh John Singleton.",
+      "casts": [61, 63],
+      "genres": [10, 14]
+    },
+    {
+      "id": 31,
+      "name": "The Fast and the Furious: Tokyo Drift",
+      "release_date": "2006-06-16",
+      "synopsis": "The Fast and the Furious: Tokyo Drift adalah film balapan mobil tahun 2006 yang disutradarai oleh Justin Lin dan merupakan sekuel dari film The Fast and the Furious. Dari urutan rilis, Tokyo Drift adalah film ketiga.",
+      "casts": [64, 65],
+      "genres": [3, 14]
+    },
+    {
+      "id": 32,
+      "name": "Fast & Furious",
+      "release_date": "2009-04-03",
+      "synopsis": "Fast & Furious merupakan sebuah film Amerika Serikat yang dirilis pada tahun 2009 Film yang disutradarai oleh Justin Lin.",
+      "casts": [61, 62, 63],
+      "genres": [3, 14]
+    },
+    {
+      "id": 33,
+      "name": "Fast Five",
+      "release_date": "2011-04-15",
+      "synopsis": "Fast Five adalah sebuah film action buatan tahun 2011 yang ceritanya ditulis oleh Chris Morgan dan disutradarai oleh Justin Lin. Film ini merupakan edisi kelima dari seri film The Fast and the Furious.",
+      "casts": [61, 62],
+      "genres": [10, 14]
+    },
+    {
+      "id": 34,
+      "name": "Fast & Furious 6",
+      "release_date": "2013-05-24",
+      "synopsis": "Fast & Furious 6 adalah film laga tahun 2013 yang ditulis oleh Chris Morgan dan disutradarai Justin Lin.",
+      "casts": [61, 62],
+      "genres": [3, 14]
+    },
+    {
+      "id": 35,
+      "name": "Furious 7",
+      "release_date": "2015-04-02",
+      "synopsis": "Furious 7 adalah sebuah film aksi, laga dan balap mobil Amerika Serikat. Furious 7 merupakan film ketujuh dari serial Fast & Furious. Film ini akan mengupas 'pensiunnya' Brian O'Conner dari dunia balap, sebagaimana diketahui, karena pemeran Brian, Paul Walker, telah meninggal dunia.",
+      "casts": [61, 62, 63],
+      "genres": [10, 14]
+    },
+    {
+      "id": 36,
+      "name": "Fast & Furious 8",
+      "release_date": "2017-04-12",
+      "synopsis": "The Fate of the Furious adalah sebuah film aksi Amerika 2017 yang disutradarai oleh F. Gary Gray dan ditulis oleh Chris Morgan. Film tersebut merupakan installment kedelapan dalam waralaba The Fast and the Furious.",
+      "casts": [62, 61, 66],
+      "genres": [13, 14]
+    },
+    {
+      "id": 37,
+      "name": "Fast & Furious 9",
+      "release_date": "2021-06-16",
+      "synopsis": "Dom Toretto (Vin Diesel) menjalani kehidupan yang tenang dengan Letty dan putranya, Brian kecil, tetapi mereka tahu bahwa bahaya selalu mengintai. Kali ini, ancaman itu akan memaksa Dom untuk menghadapi kesalahan dari masa lalunya jika dia ingin menyelamatkan orang yang paling dia cintai. Krunya bergabung bersama untuk menghentikan sesuatu yang dapat menghancurkan dunia. serangan dipimpin oleh pembunuh paling terampil dan pengemudi yang sangat handal dan juga merupakan saudara laki-laki Dom yang ditinggalkan, Jakob (John Cena).",
+      "casts": [62, 67],
+      "genres": [13, 14]
+    },
+    {
+      "id": 38,
+      "name": "Fast & Furious: Hobbs & Shaw",
+      "release_date": "2019-07-31",
+      "synopsis": "Luke Hobbs (Dwayne Johnson) membentuk aliansi yang tidak mungkin dengan Deckard Shaw (Jason Statham). Keduanya terpaksa bersatu membantu Hattie Shaw (Vanessa Kirby) untuk memburu Brixton (Idris Elba). Brixton adalah penjahat jenis baru yang berhasil mengubah dirinya menjadi manusia super. Keberadaanya menjadi ancaman bagi umat manusia.",
+      "casts": [68, 69],
+      "genres": [14]
+    },
+    {
+      "id": 39,
+      "name": "S.W.A.T.",
+      "release_date": "2003-08-08",
+      "synopsis": "S.W.A.T. adalah sebuah film laga-kriminal-thriller Amerika Serikat tahun 2003 yang berdasarkan serial televisi dengan nama yang sama tahun 1975. Film yang disutradarai oleh Clark Johnson.",
+      "casts": [66, 70],
+      "genres": [3, 14]
+    },
+    {
+      "id": 40,
+      "name": "XXX",
+      "release_date": "2002-08-09",
+      "synopsis": "xXx merupakan sebuah film Amerika Serikat yang dirilis pada tahun 2002. Film yang disutradarai oleh Rob Cohen.",
+      "casts": [62, 71],
+      "genres": [13, 14]
+    },
+    {
+      "id": 41,
+      "name": "XXX: State of the Union",
+      "release_date": "2005-04-29",
+      "synopsis": "XXX: State of the Union adalah film aksi mata-mata Amerika Serikat tahun 2005 yang disutradarai oleh Lee Tamahori dan sekuel film 2002, XXX. Ini adalah angsuran kedua dari seri film XXX, dan diproduksi oleh Revolution Studios untuk Columbia Pictures.",
+      "casts": [71, 72],
+      "genres": [3, 14]
+    },
+    {
+      "id": 42,
+      "name": "XXX: The Return of Xander Cage",
+      "release_date": "2017-01-18",
+      "synopsis": "xXx: Return of Xander Cage adalah sebuah film aksi Amerika 2017 yang ditulis oleh D. J. Caruso dan ditulis oleh F. Scott Frazier.",
+      "casts": [62, 73],
+      "genres": [13, 14]
+    },
+    {
+      "id": 43,
+      "name": "Spider-Man",
+      "release_date": "2002-05-22",
+      "synopsis": "Spider-Man adalah film pahlawan super Amerika Serikat yang disutradarai oleh Sam Raimi dan ditulis oleh David Koepp. Didasarkan pada karakter fiksi Marvel Comics, Spider-Man.",
+      "casts": [12, 74, 75],
+      "genres": [4, 14]
+    },
+    {
+      "id": 44,
+      "name": "Spider-Man 2",
+      "release_date": "2004-06-30",
+      "synopsis": "Spider-Man 2 adalah film pahlawan super Amerika Serikat yang disutradarai oleh Sam Raimi dan ditulis oleh Alfred Gough, Miles Millar, dan Michael Chabon. Didasarkan pada karakter fiksi Marvel Comics, Spider-Man.",
+      "casts": [12, 75, 76],
+      "genres": [13, 14]
+    },
+    {
+      "id": 45,
+      "name": "Spider-Man 3",
+      "release_date": "2007-05-02",
+      "synopsis": "Spider-Man 3 adalah film pahlawan super yang diproduksi oleh Marvel Studios, dan didistribusikan oleh Columbia Pictures. Film ini ditulis dan disutradarai oleh Sam Raimi. Film ini adalah film ketiga dari serial film layar lebar Spider-Man yang dibuat berdasarkan karakter fiksi dari Marvel Comics, Spider-Man.",
+      "casts": [12, 75, 76],
+      "genres": [4, 14]
+    },
+    {
+      "id": 46,
+      "name": "The Amazing Spider-Man",
+      "release_date": "2012-07-04",
+      "synopsis": "Seperti kebanyakan remaja lainnya, Peter Parker berusaha mencari jati dirinya. Bersama kekasihnya, Gwen Stacy, Peter juga berusaha menemukan identitas dirinya di tengah persoalan asmara, komitmen dan permasalahan lainnya. Dalam perjalanannya, Peter membongkar sebuah rahasia yang disimpan mendiang ayahnya, rahasia yang akan membuatnya menjadi Spider-Man.",
+      "casts": [13, 77, 78],
+      "genres": [13, 14]
+    },
+    {
+      "id": 47,
+      "name": "The Amazing Spider-Man 2",
+      "release_date": "2014-04-30",
+      "synopsis": "The Amazing Spider-Man 2 adalah film pahlawan super Amerika yang diadaptasi dari karakter Spider-Man terbitan Marvel Comics, disutradarai oleh Marc Webb, dirilis oleh Sony Pictures dan Columbia Pictures. Merupakan sekuel dari film The Amazing Spider-Man yang dirilis pada tahun 2012.",
+      "casts": [13, 77, 78],
+      "genres": [13, 14]
+    },
+    {
+      "id": 48,
+      "name": "Spider-Man: Homecoming",
+      "release_date": "2017-07-07",
+      "synopsis": "Spider-Man: Homecoming adalah film superhero Amerika 2017 berdasarkan karakter Marvel Comics Spider-Man, diproduksi bersama oleh Columbia Pictures dan Marvel Studios, dan didistribusikan oleh Sony Pictures Releasing. Ini adalah reboot film Spider-Man kedua dan film keenam belas di Marvel Cinematic Universe.",
+      "casts": [11, 8, 14],
+      "genres": [13, 14]
+    },
+    {
+      "id": 49,
+      "name": "Spider-Man: Far from Home",
+      "release_date": "2019-07-03",
+      "synopsis": "Peter Parker (Tom Holland) tengah mengunjungi Eropa untuk liburan panjang bersama temaan-temanya. Sayangnya , Parker tidak bisa dengan tenang menikmati liburannya, karena Nick Fury datang secara tiba-tiba di kamar hotelnya. Selama di Eropa pun Peter harus menghadapi banyak musuh mulai dari Hydro Man, Sandman dan Molten Man.",
+      "casts": [11, 14],
+      "genres": [13, 14]
+    },
+    {
+      "id": 50,
+      "name": "Venom: Let There Be Carnage",
+      "release_date": "2021-11-17",
+      "synopsis": "Venom kembali beraksi ketika seorang pembunuh berantai, Cletus Kasady bertransformasi menjadi sosok jahat Carnage.",
+      "casts": [6, 79, 80],
+      "genres": [11, 14]
     }
   ],
   "casts": [
@@ -435,6 +546,210 @@
     {
       "id": 29,
       "name": "Heath Ledger"
+    },
+    {
+      "id": 30,
+      "name": "Alexis Bledel"
+    },
+    {
+      "id": 31,
+      "name": "Kurt Russell"
+    },
+    {
+      "id": 32,
+      "name": "Beau Knapp"
+    },
+    {
+      "id": 33,
+      "name": "Owen willson"
+    },
+    {
+      "id": 34,
+      "name": "Bonnie Hunt"
+    },
+    {
+      "id": 35,
+      "name": "Paul Newman"
+    },
+    {
+      "id": 36,
+      "name": "Jeff Gordon"
+    },
+    {
+      "id": 37,
+      "name": "Steve Carell"
+    },
+    {
+      "id": 38,
+      "name": "Miranda"
+    },
+    {
+      "id": 39,
+      "name": "Kristen Wiig"
+    },
+    {
+      "id": 40,
+      "name": "Ellen"
+    },
+    {
+      "id": 41,
+      "name": "Albert Brooks"
+    },
+    {
+      "id": 42,
+      "name": "Ty Burell"
+    },
+    {
+      "id": 43,
+      "name": "Bill"
+    },
+    {
+      "id": 44,
+      "name": "Sophia lilis"
+    },
+    {
+      "id": 45,
+      "name": "Taron Egerton"
+    },
+    {
+      "id": 46,
+      "name": "Colin Firth"
+    },
+    {
+      "id": 47,
+      "name": "Mark Strong"
+    },
+    {
+      "id": 48,
+      "name": "Gemma"
+    },
+    {
+      "id": 49,
+      "name": "Ralph Fiennes"
+    },
+    {
+      "id": 50,
+      "name": "Will Smith"
+    },
+    {
+      "id": 51,
+      "name": "Tommy Lee"
+    },
+    {
+      "id": 52,
+      "name": "Tessa Thompson"
+    },
+    {
+      "id": 53,
+      "name": "Chris Hemsworth"
+    },
+    {
+      "id": 54,
+      "name": "Emma Thompson"
+    },
+    {
+      "id": 55,
+      "name": "Ron Perlman"
+    },
+    {
+      "id": 56,
+      "name": "Selma Blair"
+    },
+    {
+      "id": 57,
+      "name": "Doug Jones"
+    },
+    {
+      "id": 58,
+      "name": "Anna Walton"
+    },
+    {
+      "id": 59,
+      "name": "David Harbour"
+    },
+    {
+      "id": 60,
+      "name": "Sasha Lane"
+    },
+    {
+      "id": 61,
+      "name": "Paul Walker"
+    },
+    {
+      "id": 62,
+      "name": "Vin Diesel"
+    },
+    {
+      "id": 63,
+      "name": "Eva Mendes"
+    },
+    {
+      "id": 64,
+      "name": "Lucas Black"
+    },
+    {
+      "id": 65,
+      "name": "Sung Kang"
+    },
+    {
+      "id": 66,
+      "name": "Michelle Rodriguez"
+    },
+    {
+      "id": 67,
+      "name": "John Cena"
+    },
+    {
+      "id": 68,
+      "name": "Dwayne Johnson"
+    },
+    {
+      "id": 69,
+      "name": "Vanessa Kirby"
+    },
+    {
+      "id": 70,
+      "name": "Jeremy Renner"
+    },
+    {
+      "id": 71,
+      "name": "Samuel L. Jackson"
+    },
+    {
+      "id": 72,
+      "name": "Ice Cube"
+    },
+    {
+      "id": 73,
+      "name": "Ruby Rose"
+    },
+    {
+      "id": 74,
+      "name": "Willem Dafoe"
+    },
+    {
+      "id": 75,
+      "name": "Kirsten Dunst"
+    },
+    {
+      "id": 76,
+      "name": "Alfred Molina"
+    },
+    {
+      "id": 77,
+      "name": "Emma Stone"
+    },
+    {
+      "id": 78,
+      "name": "Sally Field"
+    },
+    {
+      "id": 79,
+      "name": "Woody Harrelson"
+    },
+    {
+      "id": 80,
+      "name": "Michelle Williams"
     }
   ],
   "genres": [
@@ -473,6 +788,30 @@
     {
       "id": 9,
       "title": "Western"
+    },
+    {
+      "id": 10,
+      "title": "Crime"
+    },
+    {
+      "id": 11,
+      "title": "Children"
+    },
+    {
+      "id": 12,
+      "title": "Sporty"
+    },
+    {
+      "id": 13,
+      "title": "Adventure"
+    },
+    {
+      "id": 14,
+      "title": "Fight"
+    },
+    {
+      "id": 15,
+      "title": "Fiction"
     }
   ]
 }
