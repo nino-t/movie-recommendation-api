@@ -136,7 +136,7 @@ server.get("/my-recommendation", (req, res) => {
     return x;
   });
 
-  const rest = [...response];
+  const rest = [...response].filter((x) => x.priority > 0);
   return res.status(200).jsonp({
     data: _orderBy(rest, ["priority"], ["desc"]).slice(0, MAX_SIZE_RECOMMENDATION),
   });
