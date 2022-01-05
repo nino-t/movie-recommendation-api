@@ -9,6 +9,21 @@
       "id": 2,
       "email": "irdam@example.com",
       "password": "secret"
+    },
+    {
+      "id": 3,
+      "email": "demo1@example.com",
+      "password": "secret"
+    },
+    {
+      "id": 4,
+      "email": "demo2@example.com",
+      "password": "secret"
+    },
+    {
+      "id": 5,
+      "email": "demo3@example.com",
+      "password": "secret"
     }
   ],
   "user_activity": [],
